@@ -17,10 +17,10 @@ def step_impl(context):
 
 @when('I enter details into mandatory fields')
 def step_impl(context):
-    context.driver.find_element(By.ID, "input-firstname").send_keys("Waris")
-    context.driver.find_element(By.ID, "input-lastname").send_keys("Ali")
-    context.driver.find_element(By.ID, "input-email").send_keys("warisali3@gmail.com")
-    context.driver.find_element(By.ID, "input-telephone").send_keys("03182658431")
+    context.driver.find_element(By.ID, "input-firstname").send_keys("Anas")
+    context.driver.find_element(By.ID, "input-lastname").send_keys("Sohail")
+    context.driver.find_element(By.ID, "input-email").send_keys("anas.sohail2004@gmail.com")
+    context.driver.find_element(By.ID, "input-telephone").send_keys("03102035407")
     context.driver.find_element(By.ID, "input-password").send_keys("12345")
     context.driver.find_element(By.ID, "input-confirm").send_keys("12345")
 
@@ -37,26 +37,26 @@ def step_impl(context):
 
 @when('I enter details into all fields')
 def step_impl(context):
-    context.driver.find_element(By.ID, "input-firstname").send_keys("Waris")
-    context.driver.find_element(By.ID, "input-lastname").send_keys("Ali")
-    context.driver.find_element(By.ID, "input-email").send_keys("warisali4@gmail.com")
-    context.driver.find_element(By.ID, "input-telephone").send_keys("03182658431")
+    context.driver.find_element(By.ID, "input-firstname").send_keys("Anas")
+    context.driver.find_element(By.ID, "input-lastname").send_keys("Sohail")
+    context.driver.find_element(By.ID, "input-email").send_keys("anas.sohail2005@gmail.com")
+    context.driver.find_element(By.ID, "input-telephone").send_keys("03102035407")
     context.driver.find_element(By.ID, "input-password").send_keys("12345")
     context.driver.find_element(By.ID, "input-confirm").send_keys("12345")
 
 
 @when('I enter details into all fields except email field')
 def step_impl(context):
-    context.driver.find_element(By.ID, "input-firstname").send_keys("Waris")
-    context.driver.find_element(By.ID, "input-lastname").send_keys("Ali")
-    context.driver.find_element(By.ID, "input-telephone").send_keys("03182658431")
+    context.driver.find_element(By.ID, "input-firstname").send_keys("Anas")
+    context.driver.find_element(By.ID, "input-lastname").send_keys("Sohail")
+    context.driver.find_element(By.ID, "input-telephone").send_keys("03102035407")
     context.driver.find_element(By.ID, "input-password").send_keys("12345")
     context.driver.find_element(By.ID, "input-confirm").send_keys("12345")
 
 
 @when('I enter existing accounts email into email field')
 def step_impl(context):
-    context.driver.find_element(By.ID, "input-email").send_keys("warisali@gmail.com")
+    context.driver.find_element(By.ID, "input-email").send_keys("anas.sohail2000@outlook.com")
 
 
 @then('Proper warning message informing about duplicate account should be displayed')
