@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from your version control system
-                git 'https://your-repo-url.git'
+                git 'https://github.com/iamanassohail/Selenium-Python-BDD.git'
             }
         }
 
