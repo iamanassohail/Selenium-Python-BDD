@@ -19,7 +19,7 @@ def step_impl(context):
 def step_impl(context):
     context.driver.find_element(By.ID, "input-firstname").send_keys("Anas")
     context.driver.find_element(By.ID, "input-lastname").send_keys("Sohail")
-    context.driver.find_element(By.ID, "input-email").send_keys("anas.sohail2004@gmail.com")
+    context.driver.find_element(By.ID, "input-email").send_keys("anas.sohail2008@gmail.com")
     context.driver.find_element(By.ID, "input-telephone").send_keys("03102035407")
     context.driver.find_element(By.ID, "input-password").send_keys("12345")
     context.driver.find_element(By.ID, "input-confirm").send_keys("12345")
@@ -39,7 +39,7 @@ def step_impl(context):
 def step_impl(context):
     context.driver.find_element(By.ID, "input-firstname").send_keys("Anas")
     context.driver.find_element(By.ID, "input-lastname").send_keys("Sohail")
-    context.driver.find_element(By.ID, "input-email").send_keys("anas.sohail2005@gmail.com")
+    context.driver.find_element(By.ID, "input-email").send_keys("anas.sohail2010@gmail.com")
     context.driver.find_element(By.ID, "input-telephone").send_keys("03102035407")
     context.driver.find_element(By.ID, "input-password").send_keys("12345")
     context.driver.find_element(By.ID, "input-confirm").send_keys("12345")
